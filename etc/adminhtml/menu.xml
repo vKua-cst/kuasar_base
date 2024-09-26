@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/menu.xsd">
+    <menu>
+        <add id="Kuasar_Base::kuasar" title="Kuasar" translate="title" module="Kuasar_Base"
+             sortOrder="60" resource="Kuasar_Base::kuasar" />
+<!--        <add id="Kuasar_Base::kuasar_base" title="Base" translate="title" module="Kuasar_Base"-->
+<!--             sortOrder="90" parent="Kuasar_Base::kuasar" resource="Kuasar_Base::kuasar_base" />-->
+<!--        <add id="Kuasar_Base::kuasar_base_configuration" title="Configuration" translate="title" module="Kuasar_Base"-->
+<!--             sortOrder="10" parent="Kuasar_Base::kuasar_base" action="admin/system_config/edit/section/kuasar"-->
+<!--             resource="Kuasar_Base::kuasar_base_configuration" />-->
+    </menu>
+</config>
